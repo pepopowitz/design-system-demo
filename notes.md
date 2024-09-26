@@ -1,0 +1,7 @@
+- type 1: composing a UI from oob components
+  - example: Example app.
+- type 2: breaking free by specifying something extra
+  - example: passing width=100% to CPButton
+    - ...otherProps
+- type 3: editing the component library to accommodate new needs
+  - example: adding a new variant to CPButton
