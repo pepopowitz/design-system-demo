@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Image, Input, Link, Stack, Text } from '@chakra-ui/react';
+import { Box, Flex, Image, Input, Link, Stack, Text } from '@chakra-ui/react';
 import { CPButton } from './CPButton';
 
 export interface ProductProps {
@@ -24,12 +24,11 @@ export function CPProduct({
   ) : null;
 
   return (
-    <Box
+    <Flex
       shadow="md"
       borderWidth="1px"
       borderRadius="sm"
       p="4"
-      display="flex"
       flexDirection="row"
       justifyContent="space-between"
       alignItems="flex-start"
@@ -80,6 +79,6 @@ export function CPProduct({
           </CPButton>
         </Stack>
       </Box>
-    </Box>
+    </Flex>
   );
 }
