@@ -33,10 +33,9 @@ export function CPButton({
       backgroundColor={activeVariant.backgroundColor}
       _hover={{ backgroundColor: activeVariant.backgroundColor, shadow: 'md' }}
       color={activeVariant.color}
-      fontSize="lg"
+      fontSize="md"
       py="5"
       px={10}
-      my={5}
       borderRadius="sm"
       border={activeVariant.borderColor ? '1px' : ''}
       borderColor={activeVariant.borderColor}

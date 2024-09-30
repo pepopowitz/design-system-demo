@@ -35,7 +35,7 @@ function FullCart({ items }: ShoppingCartProps) {
 function EmptyCart() {
   return (
     <>
-      <Text>Your cart is empty.</Text>
+      <Text mb={5}>Your cart is empty.</Text>
       <CPButton variant="primary">Go shopping</CPButton>
     </>
   );
