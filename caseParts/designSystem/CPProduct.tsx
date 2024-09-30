@@ -1,17 +1,8 @@
 import React from 'react';
-import {
-  Box,
-  Button,
-  Image,
-  Input,
-  Link,
-  Spacer,
-  Stack,
-  Text,
-} from '@chakra-ui/react';
+import { Box, Image, Input, Link, Stack, Text } from '@chakra-ui/react';
 import { CPButton } from './CPButton';
 
-interface ProductProps {
+export interface ProductProps {
   imageUrl?: string;
   name: string;
   partNumber: string;

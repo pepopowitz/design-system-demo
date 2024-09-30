@@ -18,6 +18,31 @@ export const Empty: Story = {
 
 export const Full: Story = {
   args: {
-    items: ['one item', 'two item', 'three item'],
+    items: [
+      {
+        imageUrl: 'https://www.caseparts.com/graphics/drawings/000830_Drw1.png',
+        name: '20-3/4 x 55-1/2 Door Gasket For Norlake',
+        partNumber: '000801',
+        price: 61.6,
+        action: 'remove',
+        status: 'In-Stock at our Los Angeles warehouse',
+      },
+      {
+        imageUrl: 'https://www.caseparts.com/graphics/drawings/000830_Drw1.png',
+        name: '31-1/2 x 73-1/2 Door Gasket For Norlake',
+        partNumber: '000813',
+        price: 95,
+        action: 'remove',
+        status: '2 remaining at our Las Vegas warehouse',
+      },
+      {
+        imageUrl: 'https://www.caseparts.com/graphics/drawings/000830_Drw1.png',
+        name: '29-15/16" x 72" Etech Gasket For Anthony',
+        partNumber: '*02-14579-0008',
+        price: 324.26,
+        action: 'remove',
+        status: 'Restocking soon',
+      },
+    ],
   },
 };
