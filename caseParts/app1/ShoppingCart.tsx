@@ -11,7 +11,7 @@ type ShoppingCartProps = {
 export function ShoppingCart({ items }: ShoppingCartProps) {
   return (
     <>
-      <CPTitle message="Shopping cart" />
+      <CPTitle message="Shopping Cart" />
       {items.length === 0 ? <EmptyCart /> : <FullCart items={items} />}
     </>
   );

@@ -6,7 +6,7 @@ interface TitleProps {
 }
 export function CPTitle({ message }: TitleProps) {
   return (
-    <Text fontSize="lg" fontWeight="700" my="10" as="h2">
+    <Text fontSize="xl" fontWeight="700" my="10" as="h2">
       {message}
     </Text>
   );
