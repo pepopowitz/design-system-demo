@@ -21,7 +21,7 @@ export function SearchResults({ items }: SearchResultsProps) {
 function Results({ items }: SearchResultsProps) {
   return (
     <>
-      <Flex
+      {/* <Flex
         flexDirection="row"
         justifyContent="space-between"
         alignContent="flex-end"
@@ -34,7 +34,7 @@ function Results({ items }: SearchResultsProps) {
         {items.map((item) => {
           return <CPProduct {...item} />;
         })}
-      </Stack>
+      </Stack> */}
     </>
   );
 }
