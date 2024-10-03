@@ -26,7 +26,7 @@ function FullCart({ items }: ShoppingCartProps) {
           return <CPProduct {...item} />;
         })}
       </Stack>
-      <CPButton variant="primary">Sign in</CPButton>
+      <CPButton variant="alternate">Sign in</CPButton>
     </>
   );
 }

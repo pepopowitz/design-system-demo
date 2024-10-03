@@ -4,7 +4,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Button, ButtonProps } from '@chakra-ui/react';
 
 interface CPButtonProps extends ButtonProps {
-  variant?: 'primary' | 'default';
+  variant?: 'primary' | 'default' | 'alternate';
 }
 
 export function CPButton({
@@ -23,7 +23,11 @@ export function CPButton({
       color: 'brand.100',
       borderColor: undefined,
     },
-    // demo: add another variant for "alternate"
+    alternate: {
+      backgroundColor: 'alternate.900',
+      color: 'brand.100',
+      borderColor: undefined,
+    },
   };
 
   const activeVariant = variants[variant];

@@ -23,3 +23,10 @@ export const Default: Story = {
     children: 'Click on me!',
   },
 };
+
+export const Alternate: Story = {
+  args: {
+    variant: 'alternate',
+    children: 'Click on me!',
+  },
+};
